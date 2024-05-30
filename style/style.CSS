@@ -1,0 +1,75 @@
+/* Estilo global del cuerpo del documento */
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor del formulario */
+.formulario {
+    background-color: #fff;
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo de los campos de entrada y botones */
+.formulario input[type="text"],
+.formulario input[type="password"],
+.formulario input[type="submit"],
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botones de acción */
+.formulario input[type="submit"],
+.formulario button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.formulario input[type="submit"]:hover,
+.formulario button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo del título y subtítulo */
+.formulario h1 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Botón de mostrar contraseña */
+#togglePassword {
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: color 0.3s;
+}
+
+#togglePassword:hover {
+    color: #0056b3;
+}

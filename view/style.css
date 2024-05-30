@@ -1,0 +1,66 @@
+body {
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fff;
+    border: 2px solid #17a2b8;
+    border-radius: 10px;
+    padding: 30px;
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo de los campos de entrada y botones */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="submit"],
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botones de acción */
+input[type="submit"],
+button {
+    background-color: #17a2b8;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #138496;
+}
+
+/* Estilo del título */
+h1 {
+    margin-bottom: 20px;
+    color: #17a2b8;
+}
+
+/* Estilos específicos para mensajes */
+.error h1 {
+    color: #dc3545;
+}
+
+.success h1 {
+    color: #28a745;
+}
